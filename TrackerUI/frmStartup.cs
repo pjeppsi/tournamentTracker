@@ -10,16 +10,23 @@ using System.Windows.Forms;
 
 namespace TrackerUI
 {
-    public partial class frmCreateTournament : Form
+    public partial class frmStartup : Form
     {
-        public frmCreateTournament()
+        public frmStartup() 
         {
             InitializeComponent();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            frmStartup f = new frmStartup();
+            frmCreateTournament f = new frmCreateTournament();
+            f.Show();
+            this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            TurnirOverview f = new TurnirOverview();
             f.Show();
             this.Hide();
         }

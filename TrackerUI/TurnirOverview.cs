@@ -17,6 +17,11 @@ namespace TrackerUI
             InitializeComponent();
         }
 
-      
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            frmStartup f = new frmStartup();
+            f.Show();
+            this.Hide();
+        }
     }
 }
