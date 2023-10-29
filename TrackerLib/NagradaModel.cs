@@ -8,6 +8,7 @@ namespace TrackerLib
 {
     public class NagradaModel
     {
+        public int id { get; set; }
         public int Plasman{ get; set; }
         public string PlasmanNaziv { get; set; }
         public decimal IznosNagrade { get; set; }
