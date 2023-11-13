@@ -13,13 +13,11 @@ namespace TrackerLib
         {
             if (database)
             {
-                // TODO - create sql conn
                 SqlConnector sqlConn = new SqlConnector();
                 Connections.Add(sqlConn);
             }
             if (textFiles)
             {
-                // TODO - create txt conn
                 TxtConnector textConn = new TxtConnector();
                 Connections.Add(textConn);
                 
