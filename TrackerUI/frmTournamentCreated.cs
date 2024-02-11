@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace TrackerUI
 {
-    public partial class frmTournamentCreated : Form
+    public partial class frmTournamentCreated : frmBase
     {
         public frmTournamentCreated()
         {

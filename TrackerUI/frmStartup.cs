@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace TrackerUI
 {
-    public partial class frmStartup : Form
+    public partial class frmStartup : frmBase
     {
         public frmStartup() 
         {

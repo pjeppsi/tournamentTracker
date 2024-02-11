@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TrackerLib.Interfaces;
 
 namespace TrackerLib
 {
@@ -20,7 +21,6 @@ namespace TrackerLib
             {
                 TxtConnector textConn = new TxtConnector();
                 Connections.Add(textConn);
-                
             }
         }
     }

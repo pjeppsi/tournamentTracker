@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace TrackerUI
 {
-    public partial class TurnirOverview : Form
+    public partial class TurnirOverview : frmBase
     {
         public TurnirOverview() 
         {

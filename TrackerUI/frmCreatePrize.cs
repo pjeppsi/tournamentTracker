@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace TrackerUI
 {
-    public partial class frmCreatePrize : Form
+    public partial class frmCreatePrize : frmBase
     {
         public frmCreatePrize()
         {
