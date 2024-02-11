@@ -6,16 +6,14 @@ using System.Threading.Tasks;
 using TrackerLib.Interfaces;
 using TrackerLib.Models;
 
-namespace TrackerLib
+namespace TrackerLib.Repository
 {
-    public class SqlConnector : IDataConn
+    public class TxtConnector : IDataRepository
     {
         public NagradaModel CreateNagradaModel(NagradaModel model)
         {
             model.id = 1;
             return model;
-            //throw new NotImplementedException();
-
         }
     }
 }

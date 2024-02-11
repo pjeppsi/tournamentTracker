@@ -7,7 +7,7 @@ using TrackerLib.Models;
 
 namespace TrackerLib.Interfaces
 {
-    public interface IDataConn
+    public interface IDataRepository
     {
         NagradaModel CreateNagradaModel(NagradaModel model);
     }
